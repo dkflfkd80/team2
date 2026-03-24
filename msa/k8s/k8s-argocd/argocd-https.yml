@@ -1,0 +1,16 @@
+
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: argo-team2-store-tls
+  namespace: argocd
+spec:
+  secretName: argo-team2-store-tls
+  duration: 2160h0m0s #90day
+  renewBefore: 360h0m0s #before 15day
+  issuerRef:
+    name: my-issuer
+    kind: ClusterIssuer
+  commonName: argo.team2.store
+  dnsNames:
+  - argo.team2.store
