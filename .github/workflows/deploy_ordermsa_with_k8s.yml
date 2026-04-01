@@ -93,7 +93,7 @@ jobs:
       
         env:         
           REGISTRY: 694322569490.dkr.ecr.ap-northeast-2.amazonaws.com
-          REPOSITORY: apigateway
+          REPOSITORY: team2-apigateway
           IMAGE_TAG: latest
         run: |
           docker build \
@@ -113,7 +113,7 @@ jobs:
       
         env:
           REGISTRY: 694322569490.dkr.ecr.ap-northeast-2.amazonaws.com
-          REPOSITORY: member-service
+          REPOSITORY: team2-member-service
           IMAGE_TAG: latest
         run: |
           docker build \
@@ -133,7 +133,7 @@ jobs:
        
         env:
           REGISTRY: 694322569490.dkr.ecr.ap-northeast-2.amazonaws.com
-          REPOSITORY: ordering-service
+          REPOSITORY: team2-ordering-service
           IMAGE_TAG: latest
         run: |
           docker build \
@@ -153,7 +153,7 @@ jobs:
      
         env:
           REGISTRY: 694322569490.dkr.ecr.ap-northeast-2.amazonaws.com
-          REPOSITORY: product-service
+          REPOSITORY: team2-product-service
           IMAGE_TAG: latest
         run: |
           docker build \
@@ -172,7 +172,7 @@ jobs:
       
         env:
           REGISTRY: 694322569490.dkr.ecr.ap-northeast-2.amazonaws.com
-          REPOSITORY: frontend-service
+          REPOSITORY: team2-frontend-service
           IMAGE_TAG: latest
         run: |
           docker build \
