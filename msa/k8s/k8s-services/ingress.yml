@@ -11,9 +11,9 @@ spec:
   tls:
   - hosts:
     - "server.team2.store"
-    secretName: server-team2-store-tls
+    secretName: server-zindogch-tls
   rules:
-  - host: server.team2.store
+  - host: server.zindogch.com
     http:
       paths:
       - path: /member-service

@@ -9,7 +9,7 @@ spec:
   # 인증서 서버 주소. 해당 서버의 리소스를 통해 인증서 발행
     server: https://acme-v02.api.letsencrypt.org/directory
   # 인증서 만료 또는 갱신 필요시 알람 email
-    email: rlaghdwns1995@gmail.com
+    email: k99830@@gmail.com
     privateKeySecretRef:
       name: my-issuer
     solvers:
@@ -21,16 +21,16 @@ spec:
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: server-team2-store-tls
+  name: server-zindogch-tls
   namespace: soldesk
 spec:
-  secretName: server-team2-store-tls
+  secretName: server-zindogch-tls
   duration: 2160h #90day
   renewBefore: 360h #before 15day
   issuerRef:
     name: my-issuer
     kind: ClusterIssuer
-  commonName: server.team2.store
+  commonName: server.zindogch.com
   dnsNames:
-  - server.team2.store
+  - server.zindogch.com
 

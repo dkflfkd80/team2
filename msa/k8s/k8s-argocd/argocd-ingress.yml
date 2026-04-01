@@ -10,9 +10,9 @@ spec:
   tls:
   - hosts:
       - argo.team2.store
-    secretName: argo-team2-store-tls
+    secretName: argo-zindog-com-tls
   rules:
-  - host: argo.team2.store
+  - host: argo.zindog.com
     http:
       paths:
         - path: /

@@ -19,7 +19,7 @@ spring:
         cors-configurations:
           '[/**]':   # 모든 경로에 대해 CORS 적용
             allowedOrigins:
-              - 'https://server.team2.store'   # 허용할 도메인
+              - 'https://server.zindog.com'   # 허용할 도메인
             allowedMethods: '*'                # 모든 HTTP Method 허용
             allowedHeaders: '*'                # 모든 Header 허용
             allowedCredentials: true           # 쿠키/인증 정보 허용
