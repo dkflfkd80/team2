@@ -10,8 +10,8 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - prometheus.team2.store
-    - grafana.team2.store
+    - prometheus.zindogch.com
+    - grafana.zindogch.com
     secretName: monitoring-zindogch-com-tls
   rules:
   - host: prometheus.zindogch.com
