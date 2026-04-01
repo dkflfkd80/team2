@@ -10,7 +10,7 @@ metadata:
 spec:
   tls:
   - hosts:
-    - "server.team2.store"
+    - "server.zindogch.com"
     secretName: server-zindogch-tls
   rules:
   - host: server.zindogch.com
