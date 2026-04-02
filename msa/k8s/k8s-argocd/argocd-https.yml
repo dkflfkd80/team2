@@ -2,10 +2,10 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: argo-zindog-com-tls
+  name: argocd-zindogch-com-tls
   namespace: argocd
 spec:
-  secretName: argo-zindog-com-tls
+  secretName: argocd-zindogch-com-tls
   duration: 2160h0m0s #90day
   renewBefore: 360h0m0s #before 15day
   issuerRef:
