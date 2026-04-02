@@ -12,7 +12,7 @@ spec:
       - argocd.zindogch.com
     secretName: argocd-zindogch-com-tls
   rules:
-  - host: argocd.zindog.com
+  - host: argocd.zindogch.com
     http:
       paths:
         - path: /
