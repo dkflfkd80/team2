@@ -9,8 +9,8 @@ metadata:
 spec:
   tls:
   - hosts:
-      - argo.team2.store
-    secretName: argo-zindog-com-tls
+      - argo.zindogch.com
+    secretName: argo-zindogch-com-tls
   rules:
   - host: argo.zindog.com
     http:
